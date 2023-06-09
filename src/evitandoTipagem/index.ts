@@ -1,11 +1,11 @@
-function sendSpaceship( spaceship: {pilot: string, copilot?: string} ) {
+function sendSpaceships( spaceship: {pilot: string, copilot?: string} ) {
   // restante da função
   // repare que adicionei um '?' ao 'copilot' para indicar que o copilot não é Obrigatório
 }
 
-sendSpaceship({pilot: 'yure', copilot: 'joao'})
+sendSpaceships({pilot: 'yure', copilot: 'joao'})
 
-sendSpaceship({pilot: 'Lucas'}) //caso NÃO ouvesse o ponto de interrogação o TS reclamaria pois 'copiloto' seria obrigatório..
+sendSpaceships({pilot: 'Lucas'}) //caso NÃO ouvesse o ponto de interrogação o TS reclamaria pois 'copiloto' seria obrigatório..
 
 
 // -------------- ANY 
@@ -20,3 +20,7 @@ input = []
 let text: string
 
 text = input
+
+
+
+export {}

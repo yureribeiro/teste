@@ -17,3 +17,6 @@ enum Roles {
 }
 
 Roles.ADMIN // result: admin
+
+
+export {} // irei usar essa sintaxe de export {} em todos arquivos para que o ts considere cada arquivo um module, ao invez de um script global.
